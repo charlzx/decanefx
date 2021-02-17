@@ -236,7 +236,7 @@ button, a {
 
   .grid-box {
     grid-template-columns: 1fr;
-    width: 70%;
+    width: 80%;
     padding-top: 30px;
   }
   .grid-box .grid-box2 {
@@ -322,7 +322,7 @@ button, a {
   }
 
   .swttt {
-    padding-left: 10%;
+    padding-left: 0%;
   }
 
   .grid-box-box {
@@ -333,7 +333,7 @@ button, a {
 @media (max-width: 720px) {
   .grid-boxxx {
     grid-template-columns: 1fr;
-    padding: 75px 20% 50px 20%;
+    padding: 75px 10% 50px 10%;
   }
   .grid-boxxx .grid-boxxx2 {
     text-align: center;
@@ -350,11 +350,11 @@ button, a {
   .grid-box-box {
     grid-template-columns: 1fr;
     padding: 0 20% 0 12.5%;
-    gap: 30px;
+    gap: 20px;
   }
 
   .reffer {
-    padding: 50px 0 0 7.5%;
+    padding: 50px 0 0 0.5%;
   }
 }
 @media (max-width: 600px) {
@@ -370,12 +370,19 @@ button, a {
   }
 
   .grid-box {
-    padding-top: 10px;
+    padding: 10px 0% 50px 0%;
+    width: 95%;
+  }
+  .grid-box .grid-box2 {
+    padding-left: 0%;
   }
   .grid-box .grid-box2 h2 {
     font-size: 30px;
   }
 
+  .grid-box-box {
+    padding: 0 9.5% 0 3.5%;
+  }
   .grid-box-box .grid-box-box1, .grid-box-box .grid-box-box2 {
     padding: 20px 10px;
   }
@@ -385,11 +392,11 @@ button, a {
   }
 
   .show-box {
-    padding: 30px 15% 0 15%;
+    padding: 30px 10% 0 10%;
   }
 
   .grid-boxxx {
-    padding: 55px 10% 50px 10%;
+    padding: 55px 5% 50px 5%;
   }
 }
 @media (max-width: 380px) {
