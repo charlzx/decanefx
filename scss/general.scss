@@ -228,9 +228,9 @@ button, a {
             border-radius: 10px;
             transition: 1s ease-in-out;
             // animation: zoomzoom 5s infinite;
-            &:hover {
-                transform: scale(1.1);
-            }
+            // &:hover {
+            //     transform: scale(1.1);
+            // }
         }
     }
 
@@ -253,7 +253,7 @@ button, a {
             background-color: #03056b;
             transition: .5s ease-in-out;
             outline: 0;
-            animation: zoomzoom 2s infinite ease-in-out;
+            // animation: zoomzoom 2s infinite ease-in-out;
 
             // &:hover {
             //     transform: scale(1.1);
