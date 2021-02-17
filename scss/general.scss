@@ -1,0 +1,294 @@
+// psych
+
+button, a {
+    cursor: pointer;
+}
+
+.column_column ul li, .column_helper ul li, .column_visual ul li, .mfn-acc ul li, .ui-tabs-panel ul li, .the_content_wrapper ul li, .post-excerpt ul li {
+    list-style: url('../../images/Checkmark.png');
+}
+
+// .column_column ul li, .column_helper ul li, .column_visual ul li, .mfn-acc ul li, .ui-tabs-panel ul li, .the_content_wrapper ul li, .post-excerpt ul li {
+//     list-style: none;
+// }
+
+#header-positioning {
+    display: flex;
+    justify-content: space-between;
+
+    .menu_wrapper {
+        align-self: center;
+    }
+}
+
+.swttt {
+    padding-left: 100px;
+}
+
+#zwttt {
+    h6 {
+        border-bottom: 2px solid #0f0338;
+        font-weight: 600; 
+        letter-spacing: normal; 
+        width: fit-content;
+    }
+
+    h2 {
+        font-weight: 600; 
+        font-size: 32px; 
+        line-height: 1;
+    }
+
+    p {
+        font-size: 23.5px;
+        line-height: 1;
+    }
+
+    ul > li {
+        font-size: 20px;
+    }
+}
+
+.section_wrapper, .container {
+    width: 1250px;
+    max-width: 1400px;
+}
+
+// .header-stack #Top_bar .logo {
+// 	width: 100%;
+// 	margin: 0;
+// 	padding: 0 30px;
+// 	text-align: left;
+// 	border-bottom-width: 1px;
+// 	border-style: solid;
+// 	-webkit-box-sizing: border-box;
+// 	-moz-box-sizing: border-box;
+// 	box-sizing: border-box;
+// }
+
+.reffer {
+    padding: 50px 0 0 10%;
+}
+
+.your-investments {
+    padding-top: 120px; 
+    padding-bottom:120px; 
+    background-color: rgb(228, 228, 228); background: url('../../images/bg-header-desktop.png'); 
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    grid-gap: 30px;
+    padding: 75px 10% 50px 10%;
+
+    .grid-box1 {
+        overflow: hidden;
+        border-radius: 10px;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            transition: 1s ease-in-out;
+            // animation: zoomzoom 5s infinite;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .grid-box2 {
+        align-self: center;
+        padding-left: 5%;
+
+        h2 {
+            font-weight: 600;
+            font-size: 45px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        button {
+            background-color: #03056b;
+            transition: .5s ease-in-out;
+            outline: 0;
+            animation: zoomzoom 2s infinite ease-in-out;
+
+            // &:hover {
+            //     transform: scale(1.1);
+            // }
+
+            // &:active {
+            //     transform: scale(0.85);
+            // }
+        }
+    }
+}
+
+@keyframes zoomzoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.grid-box-box {
+    display: grid;
+    grid-template-columns: 0.175fr 1fr 1fr 0.175fr;
+    padding: 30px 15% 75px 15%;
+    grid-gap: 20px;
+    gap: 10%;
+
+    .grid-box-box1, .grid-box-box2 {
+        width: 100%;
+        background-color: #ffffff;
+        background-color: #f2f1f1;
+        color: #03056b;
+        text-align: center;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.434);
+        transition: .5s ease-in-out;
+
+        &:hover {
+            transform: translateY(-20px);
+        }
+        
+        h2 {
+            font-size: 30px;
+            color: #03056b;
+            font-weight: 600;
+        }
+        
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        ul {
+            padding-left: 50px;
+            text-align: left;
+            list-style: url('../../images/Checkmark.png');
+
+            li {
+                padding: 3.5px 0;
+                font-size: 17px;
+            }
+        }
+
+        a {
+            button {
+                margin: 20px 0;
+                background-color: #03056b;
+                transition: .5s ease-in-out;
+                outline: 0;
+    
+                &:hover {
+                    transform: scale(1.1);
+                }
+    
+                &:active {
+                    transform: scale(0.85);
+                }
+            }
+        }
+    }
+}
+
+.grid-boxxx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    grid-gap: 30px;
+    padding: 75px 10% 50px 10%;
+
+    .grid-boxxx1 {
+        overflow: hidden;
+        border-radius: 10px;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            transition: 1s ease-in-out;
+            // animation: zoomzoom 5s infinite;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .grid-boxxx2 {
+        align-self: center;
+        padding-left: 5%;
+
+        h2 {
+            line-height: 1;
+            font-weight: 600;
+            font-size: 45px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        button {
+            background-color: #03056b;
+            transition: .5s ease-in-out;
+            outline: 0;
+            animation: zoomzoom 2s infinite ease-in-out;
+
+            // &:hover {
+            //     transform: scale(1.1);
+            // }
+
+            // &:active {
+            //     transform: scale(0.85);
+            // }
+        }
+    }
+}
+
+.show-box {
+    padding: 30px 10% 0 10%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 20px; gap: 20px;
+
+    .show-box1 {
+        .image-block {
+            height: 210px;
+            overflow: hidden;
+            border-radius: 10px;
+            
+            img {
+                // border-radius: 10px;
+                width: 100%;
+            }
+        }
+        h4 {
+            text-align: center;
+            margin-top: 5px;   
+        }
+    }
+}
+
+
+@import 'media';
