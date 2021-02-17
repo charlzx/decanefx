@@ -1818,17 +1818,6 @@ body.header-below:not(.template-slider) #Header {
 .header-stack #Top_bar {
 	position: static;
 }
-.header-stack #Top_bar .logo {
-	width: 100%;
-	margin: 0;
-	padding: 0 30px;
-	text-align: left;
-	border-bottom-width: 1px;
-	border-style: solid;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
 /**/
 
 .header-stack.header-center #Top_bar .logo {

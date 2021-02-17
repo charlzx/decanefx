@@ -2199,9 +2199,6 @@ h6 {
 	.mobile-header-mini #Top_bar .container {
 		width: 100%!important;
 	}
-	.section_wrapper, .container, .four.columns .widget-area {
-		width: calc(100% - 67px)!important;
-	}
 	.section_wrapper .mcb-wrap, .section_wrapper .column, .container .column, .sections_group, .four.columns {
 		margin: 0;
 		width: 100%!important;
