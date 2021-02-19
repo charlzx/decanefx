@@ -193,6 +193,9 @@ button, a {
   transition: 0.5s ease-in-out;
   outline: 0;
 }
+.grid-boxxx .grid-boxxx2 button:hover {
+  transform: scale(1.1);
+}
 
 .show-box {
   padding: 30px 10% 0 10%;

@@ -1,4 +1,4 @@
-// psych
+// General Stylings, and specific stylings for index.html
 
 button, a {
     cursor: pointer;
@@ -255,9 +255,9 @@ button, a {
             outline: 0;
             // animation: zoomzoom 2s infinite ease-in-out;
 
-            // &:hover {
-            //     transform: scale(1.1);
-            // }
+            &:hover {
+                transform: scale(1.1);
+            }
 
             // &:active {
             //     transform: scale(0.85);
