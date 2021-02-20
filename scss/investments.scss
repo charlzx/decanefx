@@ -15,7 +15,7 @@
 
         .main-section-box-1, .main-section-box-2, .main-section-box-3, .main-section-box-4 {
             background-color: #fff;
-            padding: 2%;
+            padding: 3%;
             border-radius: 10px;
             padding: 10px;
             font-size: 17.5px;
@@ -23,6 +23,7 @@
             h3 {
                 font-weight: 600;
                 margin-bottom: 7.5px;
+                line-height: 1.2;
             }
 
             ul {
@@ -30,6 +31,7 @@
                     list-style: url('../../images/Checkmark.png');
                     list-style-position: inside;
                     padding: 2.5px 0;
+                    line-height: 1.2;
 
                     .re-span {
                         font-weight: bold;

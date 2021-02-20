@@ -14,7 +14,7 @@
 }
 #main-main .main-section .main-section-box-1, #main-main .main-section .main-section-box-2, #main-main .main-section .main-section-box-3, #main-main .main-section .main-section-box-4 {
   background-color: #fff;
-  padding: 2%;
+  padding: 3%;
   border-radius: 10px;
   padding: 10px;
   font-size: 17.5px;
@@ -22,11 +22,13 @@
 #main-main .main-section .main-section-box-1 h3, #main-main .main-section .main-section-box-2 h3, #main-main .main-section .main-section-box-3 h3, #main-main .main-section .main-section-box-4 h3 {
   font-weight: 600;
   margin-bottom: 7.5px;
+  line-height: 1.2;
 }
 #main-main .main-section .main-section-box-1 ul li, #main-main .main-section .main-section-box-2 ul li, #main-main .main-section .main-section-box-3 ul li, #main-main .main-section .main-section-box-4 ul li {
   list-style: url("../../images/Checkmark.png");
   list-style-position: inside;
   padding: 2.5px 0;
+  line-height: 1.2;
 }
 #main-main .main-section .main-section-box-1 ul li .re-span, #main-main .main-section .main-section-box-2 ul li .re-span, #main-main .main-section .main-section-box-3 ul li .re-span, #main-main .main-section .main-section-box-4 ul li .re-span {
   font-weight: bold;
