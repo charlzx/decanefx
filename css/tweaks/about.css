@@ -1,0 +1,96 @@
+#team-team {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  grid-gap: 10px;
+}
+#team-team .section-one {
+  align-self: center;
+}
+#team-team .section-one img {
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  left: -15px;
+}
+#team-team .section-two {
+  padding: 0 10% 0 0;
+  align-self: center;
+}
+#team-team .section-two h3 {
+  font-weight: 600;
+  margin-bottom: 0.5px;
+}
+#team-team .section-two p {
+  margin-bottom: 6.5px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.bypass-section-box {
+  background-color: #f2f1f1;
+}
+
+.section-box {
+  padding: 20px 8.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+}
+.section-box .section-box-one h3, .section-box .section-box-two h3 {
+  font-weight: 600;
+  margin-bottom: 0.5px;
+}
+.section-box .section-box-one p, .section-box .section-box-two p {
+  margin-bottom: 6.5px;
+  line-height: 1.5;
+}
+.section-box .section-box-one {
+  text-align: right;
+}
+
+@media (min-width: 1500px) {
+  .grid-boxxx, .section-box {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  #team-team {
+    width: 1050px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+  }
+  #team-team .section-two {
+    padding: 0 0 0 0;
+  }
+}
+@media (max-width: 867px) {
+  #team-team {
+    grid-template-columns: 1fr;
+    padding: 40px 10%;
+    gap: 0;
+  }
+  #team-team .section-one img {
+    position: static;
+    left: 0;
+  }
+  #team-team .section-two {
+    padding: 0;
+  }
+  #team-team .section-two h3 {
+    padding: 10px 0 5px 0;
+    text-align: center;
+  }
+  #team-team .section-two p {
+    text-align: left;
+  }
+}
+@media (max-width: 450px) {
+  .section-box {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

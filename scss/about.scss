@@ -1,0 +1,114 @@
+#team-team {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; grid-gap: 10px;
+
+    .section-one {
+        align-self: center;
+
+        img {
+            width: 100%;
+            // transform: translateX(-15px);
+            border-radius: 10px;
+            position: relative;
+            left: -15px;
+        }
+    }
+
+    .section-two {
+        padding: 0 10% 0 0;
+        align-self: center;
+
+        h3 {
+            font-weight: 600;
+            margin-bottom: 0.5px;
+        }
+
+        p {
+            margin-bottom: 6.5px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+    }
+}
+
+.bypass-section-box {
+    background-color: #f2f1f1;
+}
+
+.section-box {
+    padding: 20px 8.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; gap: 20px;
+
+    .section-box-one, .section-box-two {
+        h3 {
+            font-weight: 600;
+            margin-bottom: 0.5px;
+        }
+
+        p {
+            margin-bottom: 6.5px;
+            line-height: 1.5;
+        }
+    }
+
+    .section-box-one {
+        text-align: right;
+    }
+}
+
+// media queries
+
+@media (min-width: 1500px) {
+    .grid-boxxx, .section-box {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    #team-team {
+        width: 1050px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+
+        .section-two {
+            padding: 0 0 0 0;
+        }
+    }
+}
+
+@media (max-width:867px) {
+    #team-team {
+        grid-template-columns: 1fr;
+        padding: 40px 10%;
+        gap: 0;
+
+        .section-one {
+            img {
+                position: static;
+                left: 0;
+            }
+        }
+
+        .section-two {
+            padding: 0;
+
+            h3 {
+                padding: 10px 0 5px 0;
+                text-align: center;
+            }
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .section-box {
+        grid-template-columns: 1fr;
+    }
+}
