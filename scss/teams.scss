@@ -1,0 +1,127 @@
+#teams-list {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px; gap: 20px;
+
+    padding: 10px 6.5% 30px 6.5%;
+
+    .team-member {
+        border-radius: 7.5px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 25px 30px -20px rgba(0,0,0,1); 
+        // z-index: 2;
+        line-height: 1.35;
+        // border: 1px solid #000;
+
+        img {
+            transition: all 1.5s ease;
+            width: 100%;
+            height: 100%;
+        }
+
+        p {
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            font-weight: bold;
+            // font-size: 20px;
+            text-align: center;
+            color: #03056b;
+            transition: all 1.5s ease;
+            margin: 0 0 3.5px 0;
+
+            .disappear {
+                display: none;
+                color: rgb(19, 0, 87);
+                font-size: 13px;
+            }
+        }
+    }
+
+    .team-member:hover {
+        img {
+            filter: brightness(40%);
+            transform: scale(1.15);
+        }
+
+        p {
+            color: #fff;
+
+            .disappear {
+                transition: all 1.5s ease;
+                display: block;
+                color: #5dab00;
+            }
+        }
+    }
+}
+
+.grid-boxxx {
+    background-color: #f2f1f1;
+}
+
+
+@media (min-width: 1500px) {
+    #teams-list {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 901px) {
+    #teams-list {
+        grid-gap: 10px;
+        gap: 10px;
+    }
+
+    .team-member {
+        p { 
+            font-size: 15.5px;
+        }
+    }
+}
+
+
+@media (max-width: 1200px) {
+    #teams-list {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px 10% 40px 10%;
+    }
+}
+
+@media (max-width: 715px) {
+    #teams-list {
+        padding: 20px 7.5% 40px 7.5%;
+        grid-gap: 12.5px; gap: 12.5px;
+    }
+}
+
+@media (max-width: 695px) {
+    #teams-list {
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 10% 40px 10%;
+    }
+}
+
+@media (max-width: 485px) {
+    #teams-list {
+        padding: 10px 5% 30px 5%;
+    }
+}
+
+@media (max-width: 430px) {
+    #teams-list {
+        grid-template-columns: 1fr;
+        padding: 10px 7% 30px 7%;
+        grid-gap: 20px; gap: 20px;
+    }
+
+    .team-member > p {
+        font-size: 16.5px;
+    }
+}
