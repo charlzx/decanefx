@@ -6,14 +6,6 @@ button, a {
   list-style: url("../../images/Checkmark.png");
 }
 
-#header-positioning {
-  display: flex;
-  justify-content: space-between;
-}
-#header-positioning .menu_wrapper {
-  align-self: center;
-}
-
 .swttt {
   padding-left: 100px;
 }
@@ -217,6 +209,24 @@ button, a {
   margin-top: 5px;
 }
 
+@media (min-width: 1240px) {
+  #header-positioning {
+    display: flex;
+    justify-content: space-between;
+  }
+  #header-positioning .menu_wrapper {
+    align-self: center;
+  }
+}
+@media (max-width: 1239px) and (min-width: 768px) {
+  #header-positioning {
+    display: flex;
+    justify-content: center;
+  }
+  #header-positioning .menu_wrapper {
+    align-self: center;
+  }
+}
 @media (min-width: 1300px) {
   .show-box {
     width: 1000px;
