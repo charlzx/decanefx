@@ -22,7 +22,7 @@ button, a {
   border-bottom: 2px solid #0f0338;
   font-weight: 600;
   letter-spacing: normal;
-  width: fit-content;
+  width: max-content;
 }
 #zwttt h2 {
   font-weight: 600;
@@ -440,7 +440,7 @@ button, a {
     border-bottom: 2px solid #0f0338;
     font-weight: 600;
     letter-spacing: normal;
-    width: fit-content;
+    width: max-content;
   }
   #zwttt h2 {
     font-weight: 600;
@@ -491,7 +491,7 @@ button, a {
     border-bottom: 2px solid #0f0338;
     font-weight: 600;
     letter-spacing: normal;
-    width: fit-content;
+    width: max-content;
   }
   #zwttt h2 {
     font-weight: 600;
@@ -542,7 +542,7 @@ button, a {
     border-bottom: 2px solid #0f0338;
     font-weight: 600;
     letter-spacing: normal;
-    width: fit-content;
+    width: max-content;
   }
   #zwttt h2 {
     font-weight: 600;
@@ -593,7 +593,7 @@ button, a {
     border-bottom: 2px solid #0f0338;
     font-weight: 600;
     letter-spacing: normal;
-    width: fit-content;
+    width: max-content;
     font-size: 20px;
   }
   #zwttt h2 {
@@ -645,7 +645,7 @@ button, a {
     border-bottom: 2px solid #0f0338;
     font-weight: 600;
     letter-spacing: normal;
-    width: fit-content;
+    width: max-content;
     font-size: 20px;
   }
   #zwttt h2 {
@@ -697,7 +697,7 @@ button, a {
     border-bottom: 2px solid #0f0338;
     font-weight: 600;
     letter-spacing: normal;
-    width: fit-content;
+    width: max-content;
     font-size: 20px;
   }
   #zwttt h2 {
@@ -749,7 +749,7 @@ button, a {
     border-bottom: 2px solid #0f0338;
     font-weight: 600;
     letter-spacing: normal;
-    width: fit-content;
+    width: max-content;
     font-size: 20px;
   }
   #zwttt h2 {
@@ -801,7 +801,7 @@ button, a {
     border-bottom: 2px solid #0f0338;
     font-weight: 600;
     letter-spacing: normal;
-    width: fit-content;
+    width: max-content;
     font-size: 20px;
   }
   #zwttt h2 {
