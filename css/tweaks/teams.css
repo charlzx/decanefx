@@ -11,7 +11,7 @@
   border-radius: 7.5px;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 25px 30px -20px black;
+  box-shadow: 0 25px 30px -20px rgba(0, 0, 0, 0.385);
   line-height: 1.35;
 }
 #teams-list .team-member img {

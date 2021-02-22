@@ -5839,7 +5839,7 @@ html, body {
 }
 /* #Tablet (Portrait) & Mobile < 768 ------------------------------------------------------- #Tablet (Portrait) & Mobile < 768 */
 
-@media only screen and (max-width: 1239px) {
+@media only screen and (max-width: 767px) {
 	body {
 		min-width: 0;
 	}
@@ -5973,9 +5973,9 @@ html, body {
 	#Top_bar .logo #logo img {
 		height: auto!important
 	}
-	/* #Top_bar #logo img.logo-main {
+	#Top_bar #logo img.logo-main {
 		display: none
-	} */
+	}
 	#Top_bar #logo img.logo-mobile {
 		display: inline-block
 	}
